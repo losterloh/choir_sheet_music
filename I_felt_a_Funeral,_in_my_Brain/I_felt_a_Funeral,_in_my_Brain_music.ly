@@ -12,19 +12,19 @@ IFeltAFuneralInMyBrainPartPOneVoiceOne =  \relative e' {
         \stemUp e4. \stemUp es8 \stemUp es4. \stemUp f8 | % 2
         \stemUp as4. \stemUp f8 \stemUp f4. \stemUp f8 | % 3
         \stemUp f4. \stemUp f8 \stemUp f4. \stemUp f8 | % 4
-        \stemUp f2. r8 \stemUp f8 \break | % 5
+        \stemUp f2. r8 \stemUp f8 | % 5
         \stemUp f4. \stemUp f8 \stemUp f4. \stemUp f8 | % 6
         \stemUp as4. \stemUp as8 \stemUp f4. \stemUp f8 | % 7
         \stemUp f4. \stemUp f8 \stemUp as4. \stemUp f8 | % 8
         \stemUp f2. r8 }
     \stemUp e8 | % 9
-    \stemUp e4. \stemUp es8 \stemUp es4. \stemUp f8 \pageBreak |
+    \stemUp e4. \stemUp es8 \stemUp es4. \stemUp f8 |
     \barNumberCheck #10
     \stemUp as4. \stemUp f8 \stemUp f4. \stemUp f8 | % 11
     \stemUp c4. \stemUp c8 \stemUp c4. \stemUp bes8 | % 12
     \stemUp as2. r8 \stemUp bes8 | % 13
     \stemUp bes4. \stemUp bes8 \stemUp c4. \stemUp c8 | % 14
-    \stemUp bes4. \stemUp bes8 \stemUp c4. \stemUp c8 \break | % 15
+    \stemUp bes4. \stemUp bes8 \stemUp c4. \stemUp c8 | % 15
     \stemUp bes4. \stemUp bes8 \stemUp c4. \stemUp c8 | % 16
     \stemUp c2. ^\fermata r8 \bar "|."
     }
@@ -71,19 +71,19 @@ IFeltAFuneralInMyBrainPartPTwoVoiceOne =  \relative c' {
         \stemDown c4. \stemDown c8 \stemDown c4. \stemDown c8 | % 2
         \stemDown des ?4. \stemDown c8 \stemDown c4. \stemDown c8 | % 3
         \stemDown c4. \stemDown c8 \stemDown bes4. \stemDown d8 | % 4
-        \stemDown c2. r8 \stemDown c8 \break | % 5
+        \stemDown c2. r8 \stemDown c8 | % 5
         \stemDown des4. \stemDown des8 \stemDown e4. \stemDown e8 | % 6
         \stemDown f4. \stemDown f8 \stemDown des4. \stemDown des8 | % 7
         \stemDown es ?4. \stemDown es8 \stemDown es4. \stemDown d8 | % 8
         \stemDown c2. r8 }
     \stemDown c8 | % 9
-    \stemDown c4. \stemDown c8 \stemDown c4. \stemDown c8 \pageBreak |
+    \stemDown c4. \stemDown c8 \stemDown c4. \stemDown c8 |
     \barNumberCheck #10
     \stemDown des ?4. \stemDown c8 \stemDown c4. \stemDown c8 | % 11
     \stemUp as4. \stemUp as8 \stemUp g4. \stemUp g8 | % 12
     \stemUp f2. r8 \stemUp ges8 | % 13
     \stemUp ges4. \stemUp ges8 \stemUp as4. \stemUp as8 | % 14
-    \stemUp ges4. \stemUp ges8 \stemUp as4. \stemUp as8 \break | % 15
+    \stemUp ges4. \stemUp ges8 \stemUp as4. \stemUp as8 | % 15
     \stemUp ges4. \stemUp ges8 \stemUp as4. \stemUp as8 | % 16
     \stemUp a2. ^\fermata r8 \bar "|."
     }
@@ -130,19 +130,19 @@ IFeltAFuneralInMyBrainPartPThreeVoiceOne =  \relative g {
         \stemUp g4. \stemUp g8 \stemUp f4. \stemUp f8 | % 2
         \stemDown bes4. \stemUp a8 \stemUp a4. \stemUp a8 | % 3
         \stemUp f4. \stemUp f8 \stemUp g4. \stemDown bes8 | % 4
-        \stemUp a2. r8 \stemUp a8 \break | % 5
+        \stemUp a2. r8 \stemUp a8 | % 5
         \stemDown bes4. \stemDown bes8 \stemDown bes4. \stemDown bes8 | % 6
         \stemDown bes4. \stemDown bes8 \stemDown bes4. \stemDown bes8 | % 7
         \stemDown c4. \stemDown c8 \stemDown bes4. \stemDown bes8 | % 8
         \stemUp a2. r8 }
     \stemUp g8 | % 9
-    \stemUp g4. \stemUp g8 \stemUp f4. \stemUp f8 \pageBreak |
+    \stemUp g4. \stemUp g8 \stemUp f4. \stemUp f8 |
     \barNumberCheck #10
     \stemDown bes4. \stemUp as8 \stemUp as4. \stemUp as8 | % 11
     \stemUp es4. \stemUp es8 \stemUp des4. \stemUp des8 | % 12
     \stemUp c2. r8 \stemUp des8 | % 13
     \stemUp des4. \stemUp des8 \stemUp es4. \stemUp es8 | % 14
-    \stemUp des4. \stemUp des8 \stemUp es4. \stemUp es8 \break | % 15
+    \stemUp des4. \stemUp des8 \stemUp es4. \stemUp es8 | % 15
     \stemUp des4. \stemUp des8 \stemUp es4. \stemUp es8 | % 16
     \stemUp f2. ^\fermata r8 \bar "|."
     }
@@ -189,19 +189,19 @@ IFeltAFuneralInMyBrainPartPFourVoiceOne =  \relative c {
         \stemUp c4. \stemUp c8 \stemDown des4. \stemDown des8 | % 2
         \stemUp bes4. \stemUp f8 \stemUp f4. \stemUp f8 | % 3
         \stemUp as ?4. \stemUp as8 \stemUp bes4. \stemUp es,8 | % 4
-        \stemUp f2. r8 \stemUp f8 \break | % 5
+        \stemUp f2. r8 \stemUp f8 | % 5
         \stemUp bes4. \stemUp bes8 \stemUp c4. \stemUp c8 | % 6
         \stemDown des4. \stemDown des8 \stemUp ges,4. \stemUp ges8 | % 7
         \stemUp as4. \stemUp as8 \stemUp bes4. \stemUp bes8 | % 8
         \stemUp f2. r8 }
     \stemUp c'8 | % 9
-    \stemUp c4. \stemUp c8 \stemDown des4. \stemDown des8 \pageBreak |
+    \stemUp c4. \stemUp c8 \stemDown des4. \stemDown des8 |
     \barNumberCheck #10
     \stemUp bes4. \stemUp f8 \stemUp f4. \stemUp f8 | % 11
     \stemUp as4. \stemUp as8 \stemUp bes4. \stemUp bes8 | % 12
     \stemUp f2. r8 \stemUp es8 | % 13
     \stemUp es4. \stemUp es8 \stemUp es4. \stemUp es8 | % 14
-    \stemUp es4. \stemUp es8 \stemUp es4. \stemUp es8 \break | % 15
+    \stemUp es4. \stemUp es8 \stemUp es4. \stemUp es8 | % 15
     \stemUp es4. \stemUp es8 \stemUp es4. \stemUp es8 | % 16
     \stemUp es2. ^\fermata r8 \bar "|."
     }

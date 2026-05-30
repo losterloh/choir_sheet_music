@@ -12,52 +12,51 @@ TheTideRisesTheTideFallsPartPOneVoiceOne =  \relative fis' {
     \stemDown bes4. \stemUp bes8 ( [ \stemUp a8 ) \stemUp a8 ] | % 3
     \stemUp g4 \stemUp g8 \stemUp g8 [ \stemUp a8 \stemUp a8 ] | % 4
     \stemDown bes4 \stemUp a8 \stemUp fis4 \stemUp fis8 | % 5
-    \stemUp g4 \stemUp g8 \stemUp f4 \stemUp a8 \break | % 6
+    \stemUp g4 \stemUp g8 \stemUp f4 \stemUp a8 | % 6
     \stemUp f4 \stemUp f8 \stemUp f4 \stemUp g8 | % 7
     \stemUp g8. [ \stemUp g16 \stemUp g8 ] \stemUp f8 [ \stemUp f8
     \stemUp a8 ] | % 8
     \stemUp f4 \stemUp f8 \stemUp f4 \stemUp g16 [ \stemUp g16 ] | % 9
     \stemUp g2. | \barNumberCheck #10
-    \stemUp g2. \break | % 11
+    \stemUp g2. | % 11
     \stemUp g2. | % 12
     \stemUp g2. | % 13
     \stemUp g2. | % 14
     \stemUp g2. | % 15
     \stemUp f2. | % 16
     \stemUp es2. | % 17
-    \stemUp d4. ^\fermata r4. \pageBreak | % 18
+    \stemUp d4. ^\fermata r4. | % 18
     \stemUp g4 \stemUp g8 \stemUp g8 [ \stemUp a8 \stemUp a8 ] | % 19
     \stemDown bes4 \stemDown bes8 \stemUp bes8 [ \stemUp a8 \stemUp a8 ]
     | \barNumberCheck #20
     \stemUp g4 \stemUp g8 \stemUp g8 [ \stemUp a8 \stemUp a8 ] | % 21
     \stemDown bes4 \stemUp a8 \stemUp fis4 \stemUp fis8 | % 22
-    \stemUp g4 \stemUp g8 \stemUp f4 \stemUp a16 [ \stemUp a16 ] \break
-    | % 23
+    \stemUp g4 \stemUp g8 \stemUp f4 \stemUp a16 [ \stemUp a16 ] | % 23
     \stemUp f4 \stemUp f8 \stemUp f4 \stemUp g8 | % 24
     \stemUp g4 \stemUp g8 \stemUp f4 \stemUp a8 | % 25
     \stemUp f4 \stemUp f8 \stemUp f4 \stemUp g16 [ \stemUp g16 ] | % 26
     \stemUp g4. \stemUp g4. ( | % 27
-    \stemUp g4. ) \stemUp g4. ( \break | % 28
+    \stemUp g4. ) \stemUp g4. ( | % 28
     \stemUp g4. ) \stemUp g4. ( | % 29
     \stemUp g4. ) \stemUp g4. ( | \barNumberCheck #30
     \stemUp g4. ) \stemUp g4. ( | % 31
     \stemUp g4. ) \stemUp f4. ( | % 32
     \stemUp f4. ) \stemUp es4. ( | % 33
     \stemUp es4. ) \stemUp d4. ( | % 34
-    \stemUp d4. ) ^\fermata r4 \stemUp fis8 \pageBreak | % 35
+    \stemUp d4. ) ^\fermata r4 \stemUp fis8 | % 35
     \stemUp g4 \stemUp g8 \stemUp g8 ( [ \stemUp a8 ) \stemUp a8 ] | % 36
     \stemDown bes8. [ \stemDown bes16 \stemDown bes8 ] \stemDown bes8 (
     \stemUp a4 ) | % 37
     \stemUp g4 \stemUp g8 \stemUp g8 [ \stemUp a8 \stemUp a8 ] | % 38
     \stemDown bes4 \stemUp a8 \stemUp fis4 \stemUp fis8 | % 39
-    \stemUp g4 \stemUp g8 \stemUp f4 \stemUp a8 \break | \barNumberCheck
+    \stemUp g4 \stemUp g8 \stemUp f4 \stemUp a8 | \barNumberCheck
     #40
     \stemUp f4 \stemUp f8 \stemUp f4 \stemUp f8 | % 41
     \stemUp g4 \stemUp g8 \stemUp f8. [ \stemUp f16 \stemUp a8 ] | % 42
     \stemUp f4 \stemUp f8 \stemUp f4 \stemUp g16 [ \stemUp g16 ] | % 43
     \stemUp g4 \stemUp a4 \stemDown bes4 | % 44
     \stemUp a4 ( \stemUp g4 ) \stemUp f4 | % 45
-    \stemUp g4 \stemUp a4 \stemDown bes4 \break | % 46
+    \stemUp g4 \stemUp a4 \stemDown bes4 | % 46
     \stemUp a4 ( \stemUp g4 ) \stemUp f4 | % 47
     \stemUp g4 \stemUp a4 \stemDown bes4 | % 48
     \stemUp a4 ( \stemUp g4 ) \stemUp f4 | % 49
@@ -93,33 +92,33 @@ TheTideRisesTheTideFallsPartPTwoVoiceOne =  \relative d' {
     ] | % 4
     \stemDown d4 \stemDown f8 \stemDown es8 ( [ \stemDown d8 ) \stemDown
     d8 ] | % 5
-    \stemDown d4 \stemDown d8 \stemDown d4 \stemDown d8 \break | % 6
+    \stemDown d4 \stemDown d8 \stemDown d4 \stemDown d8 | % 6
     \stemDown d4 \stemDown d8 \stemDown d4 \stemDown d8 | % 7
     \stemDown d8. [ \stemDown d16 \stemDown d8 ] \stemDown d8 [
     \stemDown d8 \stemDown d8 ] | % 8
     \stemDown d4 \stemDown d8 \stemDown d4 \stemDown d16 [ \stemDown d16
     ] | % 9
     \stemDown d4. \stemDown d4. ( | \barNumberCheck #10
-    \stemDown d4. ) \stemDown d4. ( \break | % 11
+    \stemDown d4. ) \stemDown d4. ( | % 11
     \stemDown d4. ) \stemDown d4. ( | % 12
     \stemDown d4. ) \stemDown d4. ( | % 13
     \stemDown d4. ) \stemDown d4. ( | % 14
     \stemDown d4. ) \stemDown d4. ( | % 15
     \stemDown d4. ) \stemDown d4. ( | % 16
     \stemDown d4. ) \stemDown d4. ( | % 17
-    \stemDown d4. ) ^\fermata r4. \pageBreak | % 18
+    \stemDown d4. ) ^\fermata r4. | % 18
     \stemDown bes4 \stemDown bes4 \stemDown c4 | % 19
     \stemDown d4 \stemDown d4 \stemDown c4 | \barNumberCheck #20
     \stemDown bes4 \stemDown bes4 \stemDown c4 | % 21
     \stemDown d4 \stemDown d4 \stemDown c4 | % 22
     \stemDown bes4 \stemDown bes4 \stemDown bes8 ( [ \stemDown c8 ) ]
-    \break | % 23
+    | % 23
     \stemDown d4 \stemDown d4 \stemDown d8 ( [ \stemDown c8 ) ] | % 24
     \stemDown d4 \stemDown d4 \stemDown bes8 ( [ \stemDown c8 ] | % 25
     \stemDown d4 ) \stemDown d8 \stemDown bes4 \stemDown d16 [ \stemDown
     d16 ] | % 26
     \stemDown d4. \stemDown d8 [ \stemDown d8 \stemDown d8 ] | % 27
-    \stemDown d4. \stemDown d4 \stemDown des8 \break | % 28
+    \stemDown d4. \stemDown d4 \stemDown des8 | % 28
     \stemDown c4. \stemDown c8 [ \stemDown c8 \stemDown c8 ] | % 29
     \stemDown c4. \stemDown c8 ( [ \stemDown d8 ) \stemDown es8 ] |
     \barNumberCheck #30
@@ -127,7 +126,7 @@ TheTideRisesTheTideFallsPartPTwoVoiceOne =  \relative d' {
     \stemDown f4. \stemDown f4 \stemDown es8 | % 32
     \stemDown d4. \stemDown d8 [ \stemDown d8 \stemDown d8 ] | % 33
     \stemDown d4. \stemDown d4 \stemDown d8 | % 34
-    \stemDown d4. ^\fermata r4 \stemDown d8 \pageBreak | % 35
+    \stemDown d4. ^\fermata r4 \stemDown d8 | % 35
     \stemDown d4 \stemDown d8 \stemDown d8 ( [ \stemDown f8 ) \stemDown
     es8 ] | % 36
     \stemDown d8. [ \stemDown d16 \stemDown d8 ] \stemDown d8 ( [
@@ -136,7 +135,7 @@ TheTideRisesTheTideFallsPartPTwoVoiceOne =  \relative d' {
     ] | % 38
     \stemDown d4 \stemDown f8 \stemDown es8 ( [ \stemDown d8 ) \stemDown
     d8 ] | % 39
-    \stemDown d4 \stemDown d8 \stemDown d4 \stemDown d8 \break |
+    \stemDown d4 \stemDown d8 \stemDown d4 \stemDown d8 |
     \barNumberCheck #40
     \stemDown d4 \stemDown d8 \stemDown des4 \stemDown des8 | % 41
     \stemDown d4 \stemDown d8 \stemDown d8. [ \stemDown d16 \stemDown d8
@@ -145,7 +144,7 @@ TheTideRisesTheTideFallsPartPTwoVoiceOne =  \relative d' {
     ] | % 43
     \stemDown d4. \stemDown d8 [ \stemDown d8 \stemDown d8 ] | % 44
     \stemDown d4. \stemDown d4 \stemDown des8 | % 45
-    \stemDown c4. \stemDown c8 [ \stemDown c8 \stemDown c8 ] \break | % 46
+    \stemDown c4. \stemDown c8 [ \stemDown c8 \stemDown c8 ] | % 46
     \stemDown c4. \stemDown c8 ( [ \stemDown d8 ) \stemDown es8 ] | % 47
     \stemDown f4. \stemDown f8 [ \stemDown f8 \stemDown f8 ] | % 48
     \stemDown f4. \stemDown f4 \stemDown es8 | % 49
@@ -183,7 +182,7 @@ TheTideRisesTheTideFallsPartPThreeVoiceOne =  \relative a {
     \stemDown bes4 \stemDown bes8 \stemDown bes8 [ \stemDown bes8
     \stemDown bes8 ] | % 4
     \stemDown bes4 \stemDown bes8 \stemUp a4 \stemUp a8 | % 5
-    \stemDown bes4 \stemDown bes8 \stemDown bes4 \stemDown bes8 \break | % 6
+    \stemDown bes4 \stemDown bes8 \stemDown bes4 \stemDown bes8 | % 6
     \stemUp a4 \stemUp a8 \stemDown bes4 \stemDown bes8 | % 7
     \stemDown bes8. [ \stemDown bes16 \stemDown bes8 ] \stemDown bes8 [
     \stemDown bes8 \stemDown bes8 ] | % 8
@@ -192,25 +191,25 @@ TheTideRisesTheTideFallsPartPThreeVoiceOne =  \relative a {
     \stemUp a4. \stemUp a8 [ \stemUp bes8 \stemUp bes8 ] |
     \barNumberCheck #10
     \stemDown c4. \stemDown c8 ( [ \stemDown bes8 ) \stemDown bes8 ]
-    \break | % 11
+    | % 11
     \stemUp a4. \stemUp a8 [ \stemUp bes8 \stemUp bes8 ] | % 12
     \stemDown c4. \stemDown c8 ( [ \stemDown bes8 ) \stemDown bes8 ] | % 13
     \stemUp a4. \stemUp a8 [ \stemUp bes8 \stemUp bes8 ] | % 14
     \stemDown c4. \stemDown c8 ( [ \stemDown bes8 ) \stemDown bes8 ] | % 15
     \stemUp a4. \stemUp a8 [ \stemUp bes8 \stemUp bes8 ] | % 16
     \stemDown c4. \stemDown c8 ( [ \stemDown bes8 ) \stemDown bes8 ] | % 17
-    \stemUp a4. ^\fermata r4. \pageBreak | % 18
+    \stemUp a4. ^\fermata r4. | % 18
     \stemUp g4 \stemUp g4 \stemUp g4 | % 19
     \stemUp g4 \stemUp g4 \stemUp g4 | \barNumberCheck #20
     \stemUp g4 \stemUp g4 \stemUp g4 | % 21
     \stemUp g4 \stemUp g4 \stemUp g4 | % 22
-    \stemUp g4 \stemUp g4 \stemUp a4 \break | % 23
+    \stemUp g4 \stemUp g4 \stemUp a4 | % 23
     \stemDown bes4 \stemUp a4 \stemUp f4 | % 24
     \stemUp d4 \stemUp a'4 \stemUp f4 | % 25
     \stemUp d4 \stemUp a'4 \stemUp g8 [ \stemUp bes8 ] | % 26
     \stemUp a4. \stemUp a8 [ \stemUp bes8 \stemUp bes8 ] | % 27
     \stemDown c4. \stemDown c8 ( [ \stemDown bes8 ) \stemDown bes8 ]
-    \break | % 28
+    | % 28
     \stemUp a4. \stemUp a8 [ \stemUp bes8 \stemUp bes8 ] | % 29
     \stemDown c4. \stemDown c8 ( [ \stemDown bes8 ) \stemDown bes8 ] |
     \barNumberCheck #30
@@ -218,13 +217,13 @@ TheTideRisesTheTideFallsPartPThreeVoiceOne =  \relative a {
     \stemDown c4. \stemDown c8 ( [ \stemDown bes8 ) \stemDown bes8 ] | % 32
     \stemUp a4. \stemUp a8 [ \stemUp bes8 \stemUp bes8 ] | % 33
     \stemDown c4. \stemDown c8 ( [ \stemDown bes8 ) \stemDown bes8 ] | % 34
-    \stemUp a4. ^\fermata r4 \stemUp a8 \pageBreak | % 35
+    \stemUp a4. ^\fermata r4 \stemUp a8 | % 35
     \stemDown bes4 \stemDown bes8 \stemDown bes4 \stemDown bes8 | % 36
     \stemDown bes8. [ \stemDown bes16 \stemDown bes8 ] \stemDown bes4. | % 37
     \stemDown bes4 \stemDown bes8 \stemDown bes8 [ \stemDown bes8
     \stemDown bes8 ] | % 38
     \stemDown bes4 \stemDown bes8 \stemUp a4 \stemUp a8 | % 39
-    \stemDown bes4 \stemDown bes8 \stemDown bes4 \stemDown bes8 \break |
+    \stemDown bes4 \stemDown bes8 \stemDown bes4 \stemDown bes8 |
     \barNumberCheck #40
     \stemUp a4 \stemUp a8 \stemUp as4 \stemUp as8 | % 41
     \stemDown bes4 \stemDown bes8 \stemDown bes8. [ \stemDown bes16
@@ -233,7 +232,7 @@ TheTideRisesTheTideFallsPartPThreeVoiceOne =  \relative a {
     ] | % 43
     \stemUp a4. \stemUp a8 [ \stemUp bes8 \stemUp bes8 ] | % 44
     \stemDown c4. \stemDown c8 ( [ \stemDown bes8 ) \stemDown bes8 ] | % 45
-    \stemUp a4. \stemUp a8 [ \stemUp bes8 \stemUp bes8 ] \break | % 46
+    \stemUp a4. \stemUp a8 [ \stemUp bes8 \stemUp bes8 ] | % 46
     \stemDown c4. \stemDown c8 ( [ \stemDown bes8 ) \stemDown bes8 ] | % 47
     \stemUp a4. \stemUp a8 [ \stemUp bes8 \stemUp bes8 ] | % 48
     \stemDown c4. \stemDown c8 ( [ \stemDown bes8 ) \stemDown bes8 ] | % 49
@@ -270,52 +269,52 @@ TheTideRisesTheTideFallsPartPFourVoiceOne =  \relative d {
     \stemUp bes4. \stemUp bes8 ( [ \stemUp a8 ) \stemUp a8 ] | % 3
     \stemUp g4 \stemUp g8 \stemUp g8 [ \stemUp a8 \stemUp a8 ] | % 4
     \stemUp bes4 \stemUp a8 \stemUp d,4 \stemUp d8 | % 5
-    \stemUp es4 \stemUp es8 \stemUp f4 \stemUp f8 \break | % 6
+    \stemUp es4 \stemUp es8 \stemUp f4 \stemUp f8 | % 6
     \stemUp bes4 \stemUp bes8 \stemUp g4 \stemUp g8 | % 7
     \stemUp es8. [ \stemUp es16 \stemUp es8 ] \stemUp f8 [ \stemUp f8
     \stemUp f8 ] | % 8
     \stemUp bes4 \stemUp bes8 \stemUp g4 \stemUp f16 [ \stemUp f16 ] | % 9
     \stemUp es2. | \barNumberCheck #10
-    \stemUp es2. \break | % 11
+    \stemUp es2. | % 11
     \stemUp f2. | % 12
     \stemUp f2. | % 13
     \stemUp g2. | % 14
     \stemUp g2. | % 15
     \stemUp g2. | % 16
     \stemUp g2. | % 17
-    \stemUp g4. ^\fermata r4. \pageBreak | % 18
+    \stemUp g4. ^\fermata r4. | % 18
     \stemUp g4 \stemUp g8 \stemUp g8 [ \stemUp a8 \stemUp a8 ] | % 19
     \stemUp bes4 \stemUp bes8 \stemUp bes8 [ \stemUp a8 \stemUp a8 ] |
     \barNumberCheck #20
     \stemUp g4 \stemUp g8 \stemUp g8 [ \stemUp a8 \stemUp a8 ] | % 21
     \stemUp bes4 \stemUp a8 \stemUp d,4 \stemUp d8 | % 22
     \stemUp es4 \stemUp es8 \stemUp f4 \stemUp f16 [ \stemUp f16 ]
-    \break | % 23
+    | % 23
     \stemUp bes4 \stemUp bes8 \stemUp g4 \stemUp g8 | % 24
     \stemUp es4 \stemUp es8 \stemUp f4 \stemUp f8 | % 25
     \stemUp bes4 \stemUp bes8 \stemUp g4 \stemUp f16 [ \stemUp f16 ] | % 26
     \stemUp es2. | % 27
-    \stemUp es2. \break | % 28
+    \stemUp es2. | % 28
     \stemUp f2. | % 29
     \stemUp f2. | \barNumberCheck #30
     \stemUp g2. | % 31
     \stemUp g2. | % 32
     \stemUp g2. | % 33
     \stemUp g2. | % 34
-    \stemUp g4. ^\fermata r4 \stemDown d'8 \pageBreak | % 35
+    \stemUp g4. ^\fermata r4 \stemDown d'8 | % 35
     \stemUp g,4 \stemUp g8 \stemUp g8 ( [ \stemUp a8 ) \stemUp a8 ] | % 36
     \stemUp bes8. [ \stemUp bes16 \stemUp bes8 ] \stemUp bes8 ( \stemUp
     a4 ) | % 37
     \stemUp g4 \stemUp g8 \stemUp g8 [ \stemUp a8 \stemUp a8 ] | % 38
     \stemUp bes4 \stemUp a8 \stemUp d,4 \stemUp d8 | % 39
-    \stemUp es4 \stemUp es8 \stemUp f4 \stemUp f8 \break |
+    \stemUp es4 \stemUp es8 \stemUp f4 \stemUp f8 |
     \barNumberCheck #40
     \stemUp bes4 \stemUp bes8 \stemUp bes4 \stemUp bes8 | % 41
     \stemUp es,4 \stemUp es8 \stemUp f8. [ \stemUp f16 \stemUp f8 ] | % 42
     \stemUp bes4 \stemUp bes8 \stemUp g4 \stemUp f16 [ \stemUp f16 ] | % 43
     \stemUp es4. \stemUp es4. ( | % 44
     \stemUp es4. ) \stemUp es4. ( | % 45
-    \stemUp f4. ) \stemUp f4. ( \break | % 46
+    \stemUp f4. ) \stemUp f4. ( | % 46
     \stemUp f4. ) \stemUp f4. ( | % 47
     \stemUp g4. ) \stemUp g4. ( | % 48
     \stemUp g4. ) \stemUp g4. ( | % 49

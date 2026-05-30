@@ -14,7 +14,7 @@ AhSunflowerPartPOneVoiceOne =  \relative g' {
     \stemUp cis4 \stemUp cis16 [ \stemUp e16 ] | % 6
     \stemUp d4 \stemUp d16 [ \stemUp e16 ] | % 7
     \stemUp fis4. | % 8
-    \stemUp dis8 \stemUp eis4 \break | % 9
+    \stemUp dis8 \stemUp eis4 | % 9
     \stemUp fis8 [ \stemUp fis8. \stemUp fis16 ] | \barNumberCheck #10
     \stemUp gis8 [ \stemUp gis8. \stemUp fis16 ] | % 11
     \stemUp dis4 \stemUp dis16 [ \stemUp dis16 ] | % 12
@@ -22,7 +22,7 @@ AhSunflowerPartPOneVoiceOne =  \relative g' {
     \stemUp cis8 [ \stemUp cis8. \stemUp c16 ] | % 14
     \stemUp b4. ~ | % 15
     \stemUp b8 r8 \stemUp b16 [ \stemUp b16 ] | % 16
-    \stemUp b8 [ \stemUp b8. \stemUp b16 ] \break | % 17
+    \stemUp b8 [ \stemUp b8. \stemUp b16 ] | % 17
     \stemUp b8 [ \stemUp b8. \stemUp ais16 ] | % 18
     \stemUp b4. ^\fermata | % 19
     \stemUp b4 \stemUp b8 | \barNumberCheck #20
@@ -30,7 +30,7 @@ AhSunflowerPartPOneVoiceOne =  \relative g' {
     \stemUp d8. [ \stemUp e16 \stemUp d8 ] | % 22
     \stemUp d4 \stemUp d16 [ \stemUp d16 ] | % 23
     \stemUp d8 [ \stemUp d8 \stemUp d8 ] | % 24
-    \stemUp d8 [ \stemUp d8 \stemUp d8 ] \pageBreak | % 25
+    \stemUp d8 [ \stemUp d8 \stemUp d8 ] | % 25
     \stemUp d4 \stemUp d8 | % 26
     \stemUp f4 \stemUp f16 [ \stemUp f16 ] | % 27
     \stemUp f8 [ \stemUp f8 \stemUp f8 ] | % 28
@@ -38,7 +38,7 @@ AhSunflowerPartPOneVoiceOne =  \relative g' {
     \stemUp dis4 ) \stemUp dis16 [ \stemUp dis16 ] | \barNumberCheck #30
     \stemUp d ?8 [ \stemUp d8. \stemUp d16 ] | % 31
     \stemUp cis8 [ \stemUp cis8. \stemUp c16 ] | % 32
-    \stemUp b4. ~ \break | % 33
+    \stemUp b4. ~ | % 33
     \stemUp b8 r8 \stemUp b16 [ \stemUp b16 ] | % 34
     \stemUp b8 [ \stemUp b8. \stemUp b16 ] | % 35
     \stemUp b8 [ \stemUp b8. \stemUp ais16 ] | % 36
@@ -65,7 +65,7 @@ AhSunflowerPartPTwoVoiceOne =  \relative ais {
     \stemDown b8 [ \stemDown cis8 \stemDown b8 ] | % 6
     \stemDown b8 [ \stemDown cis8 \stemDown b8 ] | % 7
     \stemDown b4. | % 8
-    \stemDown b8 \stemDown b4 \break | % 9
+    \stemDown b8 \stemDown b4 | % 9
     \stemDown cis8 [ \stemDown dis8. \stemDown dis16 ] | \barNumberCheck
     #10
     \stemDown dis8 [ \stemDown dis8. \stemDown cis16 ] | % 11
@@ -74,7 +74,7 @@ AhSunflowerPartPTwoVoiceOne =  \relative ais {
     \stemUp a8 [ \stemUp a8. \stemUp as16 ] | % 14
     \stemUp g4. ~ | % 15
     \stemUp g8 r8 \stemUp g16 [ \stemUp g16 ] | % 16
-    \stemUp g8 [ \stemUp gis8. \stemUp gis16 ] \break | % 17
+    \stemUp g8 [ \stemUp gis8. \stemUp gis16 ] | % 17
     \stemUp gis8 [ \stemUp fis8. \stemUp fis16 ] | % 18
     \stemUp fis4. ^\fermata | % 19
     \stemUp fis4 \stemUp ais8 | \barNumberCheck #20
@@ -82,7 +82,7 @@ AhSunflowerPartPTwoVoiceOne =  \relative ais {
     \stemUp b8 [ \stemUp a8 \stemUp g8 ] | % 22
     \stemUp fis4 \stemUp g16 [ \stemUp g16 ] | % 23
     \stemUp g8 [ \stemUp g8 \stemUp g8 ] | % 24
-    \stemUp a8 [ \stemUp a8 \stemUp a8 ] \pageBreak | % 25
+    \stemUp a8 [ \stemUp a8 \stemUp a8 ] | % 25
     \stemUp a4 \stemUp a8 | % 26
     \stemDown bes4 \stemDown bes16 [ \stemDown bes16 ] | % 27
     \stemDown bes8 [ \stemDown bes8 \stemDown c8 ] | % 28
@@ -91,7 +91,7 @@ AhSunflowerPartPTwoVoiceOne =  \relative ais {
     #30
     \stemDown b8 [ \stemDown b8. \stemDown b16 ] | % 31
     \stemUp a8 [ \stemUp a8. \stemUp as16 ] | % 32
-    \stemUp g4. ~ \break | % 33
+    \stemUp g4. ~ | % 33
     \stemUp g8 r8 \stemUp g16 [ \stemUp g16 ] | % 34
     \stemUp g8 [ \stemUp gis8. \stemUp gis16 ] | % 35
     \stemUp gis8 [ \stemUp fis8. \stemUp fis16 ] | % 36
@@ -118,7 +118,7 @@ AhSunflowerPartPThreeVoiceOne =  \relative g {
     \stemUp fis8 [ \stemUp e8 \stemUp fis8 ] | % 6
     \stemUp fis8 [ \stemUp e8 \stemUp fis8 ] | % 7
     \stemUp fis4. | % 8
-    \stemUp fis8 \stemUp fis4 \break | % 9
+    \stemUp fis8 \stemUp fis4 | % 9
     \stemUp fis8 [ \stemUp fis8. \stemUp fis16 ] | \barNumberCheck #10
     \stemUp fis8 [ \stemUp eis8. \stemUp ais16 ] | % 11
     \stemUp fis4 \stemUp fis16 [ \stemUp fis16 ] | % 12
@@ -126,7 +126,7 @@ AhSunflowerPartPThreeVoiceOne =  \relative g {
     \stemUp fis8 [ \stemUp fis8. \stemUp fis16 ] | % 14
     \stemUp fis4. ~ | % 15
     \stemUp fis8 r8 \stemUp fis16 [ \stemUp fis16 ] | % 16
-    \stemUp e8 [ \stemUp e8. \stemUp d16 ] \break | % 17
+    \stemUp e8 [ \stemUp e8. \stemUp d16 ] | % 17
     \stemUp cis8 [ \stemUp cis8. \stemUp cis16 ] | % 18
     \stemUp dis4. ^\fermata | % 19
     \stemUp dis4 \stemUp fis8 | \barNumberCheck #20
@@ -134,7 +134,7 @@ AhSunflowerPartPThreeVoiceOne =  \relative g {
     \stemUp g8 [ \stemUp fis8 \stemUp e8 ] | % 22
     \stemUp d4 \stemUp e16 [ \stemUp e16 ] | % 23
     \stemUp e8 [ \stemUp e8 \stemUp f8 ] | % 24
-    \stemUp f8 [ \stemUp e8 \stemUp e8 ] \pageBreak | % 25
+    \stemUp f8 [ \stemUp e8 \stemUp e8 ] | % 25
     \stemUp e4 \stemUp e8 | % 26
     \stemUp d4 \stemUp d16 [ \stemUp d16 ] | % 27
     \stemUp des8 [ \stemUp c8 \stemUp des8 ] | % 28
@@ -142,7 +142,7 @@ AhSunflowerPartPThreeVoiceOne =  \relative g {
     \stemUp fis4 ) \stemUp fis16 [ \stemUp fis16 ] | \barNumberCheck #30
     \stemUp fis8 [ \stemUp fis8. \stemUp fis16 ] | % 31
     \stemUp fis8 [ \stemUp fis8. \stemUp fis16 ] | % 32
-    \stemUp fis4. ~ \break | % 33
+    \stemUp fis4. ~ | % 33
     \stemUp fis8 r8 \stemUp fis16 [ \stemUp fis16 ] | % 34
     \stemUp e8 [ \stemUp e8. \stemUp d16 ] | % 35
     \stemUp cis8 [ \stemUp cis8. \stemUp cis16 ] | % 36
@@ -169,7 +169,7 @@ AhSunflowerPartPFourVoiceOne =  \relative dis {
     \stemUp a8 [ \stemUp a8 \stemUp a8 ] | % 6
     \stemUp g8 [ \stemUp g8 \stemUp fis8 ] | % 7
     \stemUp dis4. | % 8
-    \stemUp gis8 \stemUp gis4 \break | % 9
+    \stemUp gis8 \stemUp gis4 | % 9
     \stemUp b8 [ \stemUp b8. \stemUp b16 ] | \barNumberCheck #10
     \stemUp cis8 [ \stemUp cis8. \stemUp cis16 ] | % 11
     \stemUp gis4 \stemUp gis16 [ \stemUp gis16 ] | % 12
@@ -177,7 +177,7 @@ AhSunflowerPartPFourVoiceOne =  \relative dis {
     \stemUp fis8 [ \stemUp fis8. \stemUp fis16 ] | % 14
     \stemUp fis4. ~ | % 15
     \stemUp fis8 r8 \stemUp fis16 [ \stemUp fis16 ] | % 16
-    \stemUp fis8 [ \stemUp fis8. \stemUp fis16 ] \break | % 17
+    \stemUp fis8 [ \stemUp fis8. \stemUp fis16 ] | % 17
     \stemUp fis8 [ \stemUp fis8. \stemUp fis16 ] | % 18
     \stemUp <b, b'>4. ^\fermata | % 19
     \stemUp b'4 \stemUp b8 | \barNumberCheck #20
@@ -185,7 +185,7 @@ AhSunflowerPartPFourVoiceOne =  \relative dis {
     \stemUp a8 [ \stemUp c8 \stemUp a8 ] | % 22
     \stemUp d,4 \stemUp d16 [ \stemUp d16 ] | % 23
     \stemUp c'8 [ \stemUp c8 \stemUp c8 ] | % 24
-    \stemUp bes8 [ \stemUp bes8 \stemUp a8 ] \pageBreak | % 25
+    \stemUp bes8 [ \stemUp bes8 \stemUp a8 ] | % 25
     \stemUp d,4 \stemUp d8 | % 26
     \stemUp bes'4 \stemUp bes16 [ \stemUp bes16 ] | % 27
     \stemUp ges8 [ \stemUp ges8 \stemUp ges8 ] | % 28
@@ -194,7 +194,7 @@ AhSunflowerPartPFourVoiceOne =  \relative dis {
     #30
     \stemUp fis8 [ \stemUp fis8. \stemUp fis16 ] | % 31
     \stemUp fis8 [ \stemUp fis8. \stemUp fis16 ] | % 32
-    \stemUp fis4. ~ \break | % 33
+    \stemUp fis4. ~ | % 33
     \stemUp fis8 r8 \stemUp fis16 [ \stemUp fis16 ] | % 34
     \stemUp fis8 [ \stemUp fis8. \stemUp fis16 ] | % 35
     \stemUp fis8 [ \stemUp fis8. \stemUp fis16 ] | % 36

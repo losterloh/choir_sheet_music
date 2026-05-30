@@ -12,7 +12,7 @@ ADreamWithinADreamPartPOneVoiceOne =  \relative es' {
     \stemUp es4. \stemUp es8 \stemUp d4. \stemUp d8 | % 4
     \stemUp c4. \stemUp c8 \stemUp c2 | % 5
     \stemUp des2 \stemUp des4 \stemUp des4 | % 6
-    \stemUp des4 \stemUp des4 \stemUp c4. \stemUp des8 \break | % 7
+    \stemUp des4 \stemUp des4 \stemUp c4. \stemUp des8 | % 7
     \stemUp f4. \stemUp es8 \stemUp des4. \stemUp des8 | % 8
     \stemUp c2. \stemUp c8 [ \stemUp c8 ] | % 9
     \stemUp f4. \stemUp es8 \stemUp des4. \stemUp des8 | \barNumberCheck
@@ -20,7 +20,7 @@ ADreamWithinADreamPartPOneVoiceOne =  \relative es' {
     \stemUp c2. \stemUp c8 [ \stemUp c8 ] | % 11
     \stemUp des4 \stemUp es4 \stemUp f4. \stemUp f8 | % 12
     \stemUp des2. \stemUp des8 [ \stemUp des8 ] | % 13
-    \stemUp es4 \stemUp es4 \stemUp f4 \stemUp f4 \break | % 14
+    \stemUp es4 \stemUp es4 \stemUp f4 \stemUp f4 | % 14
     \stemUp e2. \stemUp f8 [ \stemUp f8 ] | % 15
     \stemUp des4 \stemUp es4 \stemUp f4. \stemUp f8 | % 16
     \stemUp des2. \stemUp des8 [ \stemUp des8 ] | % 17
@@ -28,7 +28,7 @@ ADreamWithinADreamPartPOneVoiceOne =  \relative es' {
     c1 | % 19
     \stemUp des4 \stemUp es8 [ \stemUp es8 ] \stemUp f4 \stemUp es4 |
     \barNumberCheck #20
-    \stemUp es2 r8 \stemUp des8 [ \stemUp es8 \stemUp f8 ] \pageBreak | % 21
+    \stemUp es2 r8 \stemUp des8 [ \stemUp es8 \stemUp f8 ] | % 21
     \stemDown bes4. \stemUp as8 \stemUp as4. \stemUp ges8 | % 22
     \stemUp fis2 r4 \stemUp fis4 | % 23
     \stemUp fis4 \stemUp fis4 \stemUp fis4 \stemUp fis4 | % 24
@@ -36,7 +36,7 @@ ADreamWithinADreamPartPOneVoiceOne =  \relative es' {
     \stemUp ges4 \stemUp f4 \stemUp es4 \stemUp des4 | % 26
     \stemUp b2. \stemUp b4 | % 27
     \stemUp c2. \stemUp d4 | % 28
-    \stemUp es2. \stemUp es4 \break | % 29
+    \stemUp es2. \stemUp es4 | % 29
     es1 | \barNumberCheck #30
     r2. r8 \stemUp es8 | % 31
     \stemUp es4. \stemUp es8 \stemUp f4 \stemUp ges4 | % 32
@@ -44,14 +44,14 @@ ADreamWithinADreamPartPOneVoiceOne =  \relative es' {
     \stemUp es4 \stemUp f4 \stemUp ges4 \stemUp des4 | % 34
     \stemUp es2. \stemUp es8 [ \stemUp es8 ] | % 35
     \stemUp c4. \stemUp c8 \stemUp c4. \stemUp c8 | % 36
-    \stemUp c2 ( \stemUp b2 ) \break | % 37
+    \stemUp c2 ( \stemUp b2 ) | % 37
     \stemUp b4 \stemUp c8 [ \stemUp d8 ] \stemUp g,4 \stemUp a4 | % 38
     \stemUp b2. \stemUp b4 | % 39
     \stemUp c4. \stemUp c8 \stemUp d4. \stemUp d8 | \barNumberCheck #40
     \stemUp es2. \stemUp bes8 [ \stemUp bes8 ] | % 41
     \stemUp c4. \stemUp bes8 \stemUp as4 \stemUp as4 | % 42
     \stemUp ges2. r4 | % 43
-    R1 \break | % 44
+    R1 | % 44
     r2. \stemUp c4 | % 45
     \stemUp des4 \stemUp es4 \stemUp f4. \stemUp f8 | % 46
     \stemUp des2. \stemUp des4 | % 47
@@ -61,14 +61,14 @@ ADreamWithinADreamPartPOneVoiceOne =  \relative es' {
     #50
     des1 | % 51
     \stemUp c4 \stemUp c8 [ \stemUp c8 ] \stemUp bes4 \stemUp bes8 [
-    \stemUp bes8 ] \pageBreak | % 52
+    \stemUp bes8 ] | % 52
     \stemUp c2. \stemUp c4 | % 53
     \stemUp des4 \stemUp es8 [ \stemUp es8 ] \stemUp f4 \stemUp es4 | % 54
     \stemUp es2 r4 \stemUp es8 [ \stemUp f8 ] | % 55
     \stemDown bes4. \stemUp as8 \stemUp as4. \stemUp ges8 | % 56
     \stemUp fis2 r4 \stemUp fis4 | % 57
     \stemUp fis4 \stemUp fis4 \stemUp fis4 \stemUp fis4 | % 58
-    \stemUp fis4 ( \stemUp gis4 ) r4 \stemUp g4 \break | % 59
+    \stemUp fis4 ( \stemUp gis4 ) r4 \stemUp g4 | % 59
     \stemUp ges4 \stemUp f4 \stemUp es4 \stemUp des4 | \barNumberCheck
     #60
     \stemUp b2. \stemUp b4 | % 61
@@ -101,7 +101,7 @@ ADreamWithinADreamPartPTwoVoiceOne =  \relative bes {
     \stemDown bes4. \stemDown bes8 \stemDown bes4. \stemDown bes8 | % 4
     \stemDown bes4. \stemDown bes8 \stemDown bes4 ( \stemUp a4 ) | % 5
     \stemDown bes2 \stemDown f'4 \stemDown f4 | % 6
-    \stemDown f4 \stemDown es4 \stemDown e4. \stemDown f8 \break | % 7
+    \stemDown f4 \stemDown es4 \stemDown e4. \stemDown f8 | % 7
     \stemDown des4. \stemDown c8 \stemDown bes4. \stemDown bes8 | % 8
     \stemUp a2. \stemUp a8 [ \stemUp a8 ] | % 9
     \stemDown des4. \stemDown c8 \stemDown bes4. \stemDown bes8 |
@@ -109,7 +109,7 @@ ADreamWithinADreamPartPTwoVoiceOne =  \relative bes {
     \stemUp a2. \stemUp a8 [ \stemUp a8 ] | % 11
     \stemDown bes4 \stemDown c4 \stemDown des4. \stemDown des8 | % 12
     \stemDown bes2. \stemDown bes8 [ \stemDown bes8 ] | % 13
-    \stemDown c4 \stemDown c4 \stemDown des4 \stemDown des4 \break | % 14
+    \stemDown c4 \stemDown c4 \stemDown des4 \stemDown des4 | % 14
     \stemDown c2. \stemDown des8 [ \stemDown des8 ] | % 15
     \stemDown bes4 \stemDown c4 \stemDown des4. \stemDown des8 | % 16
     \stemDown bes2. \stemDown bes8 [ \stemDown bes8 ] | % 17
@@ -118,7 +118,7 @@ ADreamWithinADreamPartPTwoVoiceOne =  \relative bes {
     \stemDown bes4 \stemDown bes8 [ \stemDown bes8 ] \stemDown c4
     \stemDown c4 | \barNumberCheck #20
     \stemDown bes2 r8 \stemDown bes8 [ \stemDown bes8 \stemDown c8 ]
-    \pageBreak | % 21
+    | % 21
     \stemDown des4. \stemDown des8 \stemDown des4. \stemDown d8 | % 22
     \stemDown d2 r4 \stemDown d4 | % 23
     \stemDown d4 \stemDown d4 \stemDown e4 \stemDown e4 | % 24
@@ -126,7 +126,7 @@ ADreamWithinADreamPartPTwoVoiceOne =  \relative bes {
     \stemDown es4 \stemDown des4 \stemDown c4 \stemDown bes4 | % 26
     \stemUp as2. \stemUp as4 | % 27
     \stemUp as2. \stemUp as4 | % 28
-    \stemUp ges2. \stemUp ges4 \break | % 29
+    \stemUp ges2. \stemUp ges4 | % 29
     es1 | \barNumberCheck #30
     r2. r8 \stemUp ges8 | % 31
     \stemUp ges4. \stemUp ges8 \stemUp as4 \stemDown bes4 | % 32
@@ -134,14 +134,14 @@ ADreamWithinADreamPartPTwoVoiceOne =  \relative bes {
     \stemDown bes4 \stemDown bes4 \stemDown bes4 \stemDown bes4 | % 34
     \stemDown bes2. \stemDown bes8 [ \stemDown bes8 ] | % 35
     \stemUp a4. \stemUp a8 \stemUp a4. \stemUp a8 | % 36
-    as ?1 \break | % 37
+    as ?1 | % 37
     \stemUp g4 \stemUp g8 [ \stemUp g8 ] \stemUp g4 \stemUp g4 | % 38
     \stemUp g2. \stemUp g4 | % 39
     \stemUp g4. \stemUp g8 \stemUp g4. \stemUp g8 | \barNumberCheck #40
     \stemUp g2. \stemUp g8 [ \stemUp g8 ] | % 41
     \stemUp g4. \stemUp g8 \stemUp g4 \stemUp g4 | % 42
     \stemUp ges2. r4 | % 43
-    R1 \break | % 44
+    R1 | % 44
     r2. \stemUp a4 | % 45
     \stemDown bes4 \stemDown c4 \stemDown des4. \stemDown des8 | % 46
     \stemDown bes2. \stemDown bes4 | % 47
@@ -151,7 +151,7 @@ ADreamWithinADreamPartPTwoVoiceOne =  \relative bes {
     \barNumberCheck #50
     bes1 | % 51
     \stemUp as4 \stemUp as8 [ \stemUp as8 ] \stemUp g4 \stemUp g8 [
-    \stemUp g8 ] \pageBreak | % 52
+    \stemUp g8 ] | % 52
     \stemUp as2. \stemUp a4 | % 53
     \stemDown bes4 \stemDown bes8 [ \stemDown bes8 ] \stemDown c4
     \stemDown c4 | % 54
@@ -159,7 +159,7 @@ ADreamWithinADreamPartPTwoVoiceOne =  \relative bes {
     \stemDown des4. \stemDown des8 \stemDown des4. \stemDown d8 | % 56
     \stemDown d2 r4 \stemDown d4 | % 57
     \stemDown d4 \stemDown d4 \stemDown e4 \stemDown e4 | % 58
-    \stemDown e2 r4 \stemDown e4 \break | % 59
+    \stemDown e2 r4 \stemDown e4 | % 59
     \stemDown es4 \stemDown des4 \stemDown c4 \stemDown bes4 |
     \barNumberCheck #60
     \stemUp as2. \stemUp as4 | % 61
@@ -192,14 +192,14 @@ ADreamWithinADreamPartPThreeVoiceOne =  \relative g {
     \stemUp g4. \stemUp g8 \stemUp g4. \stemUp g8 | % 4
     \stemUp g4. \stemUp g8 \stemUp g4 ( \stemUp f4 ) | % 5
     \stemUp f2 \stemUp f4 \stemUp f4 | % 6
-    \stemUp fis4 \stemUp fis4 \stemUp g4. \stemUp f8 \break | % 7
+    \stemUp fis4 \stemUp fis4 \stemUp g4. \stemUp f8 | % 7
     \stemUp f4. \stemUp f8 \stemUp f4. \stemUp f8 | % 8
     \stemUp f2. \stemUp f8 [ \stemUp f8 ] | % 9
     \stemUp f4. \stemUp f8 \stemUp f4. \stemUp f8 | \barNumberCheck #10
     \stemUp f2. \stemUp f8 [ \stemUp f8 ] | % 11
     \stemUp f4 \stemUp f4 \stemUp f4. \stemUp f8 | % 12
     \stemUp f2. \stemUp f8 [ \stemUp f8 ] | % 13
-    \stemUp f4 \stemUp f4 \stemUp f4 \stemUp f4 \break | % 14
+    \stemUp f4 \stemUp f4 \stemUp f4 \stemUp f4 | % 14
     \stemUp f2. \stemUp f8 [ \stemUp f8 ] | % 15
     \stemUp f4 \stemUp f4 \stemUp f4. \stemUp f8 | % 16
     \stemUp f2. \stemUp f8 [ \stemUp f8 ] | % 17
@@ -208,7 +208,7 @@ ADreamWithinADreamPartPThreeVoiceOne =  \relative g {
     \stemUp ges4 \stemUp ges8 [ \stemUp ges8 ] \stemUp as4 \stemUp as4 |
     \barNumberCheck #20
     \stemUp ges2 r8 \stemUp ges8 [ \stemUp ges8 \stemUp ges8 ]
-    \pageBreak | % 21
+    | % 21
     \stemUp es4. \stemUp es8 \stemUp f4. \stemUp f8 | % 22
     \stemUp fis2 r4 \stemUp g4 | % 23
     \stemUp g4 \stemUp g4 \stemUp g4 \stemUp a4 | % 24
@@ -216,7 +216,7 @@ ADreamWithinADreamPartPThreeVoiceOne =  \relative g {
     \stemDown des4 \stemDown bes4 \stemDown des4 \stemUp as4 | % 26
     \stemDown bes2. \stemDown bes4 | % 27
     \stemDown bes2. \stemDown bes4 | % 28
-    \stemDown des2. \stemDown c4 \break | % 29
+    \stemDown des2. \stemDown c4 | % 29
     bes1 | \barNumberCheck #30
     r2. r8 \stemDown bes8 | % 31
     \stemDown bes4. \stemDown bes8 \stemDown bes4 \stemDown bes4 | % 32
@@ -224,7 +224,7 @@ ADreamWithinADreamPartPThreeVoiceOne =  \relative g {
     \stemDown bes4 \stemDown bes4 \stemUp as4 \stemUp as4 | % 34
     \stemUp as2 ( \stemUp g4 ) \stemUp g8 [ \stemUp g8 ] | % 35
     \stemUp g4. \stemUp g8 \stemUp g4. \stemUp g8 | % 36
-    f1 \break | % 37
+    f1 | % 37
     \stemUp f4 \stemUp f8 [ \stemUp f8 ] \stemUp f4 \stemUp f4 | % 38
     \stemUp f2. \stemUp f4 | % 39
     \stemUp es4. \stemUp es8 \stemUp es4. \stemUp es8 | \barNumberCheck
@@ -232,7 +232,7 @@ ADreamWithinADreamPartPThreeVoiceOne =  \relative g {
     \stemUp es2. \stemUp es8 [ \stemUp es8 ] | % 41
     \stemUp es4. \stemUp es8 \stemUp es4 \stemUp es4 | % 42
     \stemUp es2. \stemUp es8 [ \stemUp es8 ] | % 43
-    \stemUp fes4 ( \stemUp es2 ) r4 \break | % 44
+    \stemUp fes4 ( \stemUp es2 ) r4 | % 44
     r2. \stemUp f4 | % 45
     \stemUp f4 \stemUp f4 \stemUp f4. \stemUp f8 | % 46
     \stemUp f2. \stemUp f4 | % 47
@@ -241,14 +241,14 @@ ADreamWithinADreamPartPThreeVoiceOne =  \relative g {
     \stemUp f4 \stemUp f4 \stemUp f4. \stemUp f8 | \barNumberCheck #50
     f1 | % 51
     \stemUp f4 \stemUp f8 [ \stemUp f8 ] \stemUp f4 \stemUp f8 [ \stemUp
-    f8 ] \pageBreak | % 52
+    f8 ] | % 52
     \stemUp e2. \stemUp f4 | % 53
     \stemUp ges4 \stemUp ges8 [ \stemUp ges8 ] \stemUp as4 \stemUp as4 | % 54
     \stemUp ges2 r4 \stemUp ges8 [ \stemUp ges8 ] | % 55
     \stemUp es4. \stemUp es8 \stemUp f4. \stemUp f8 | % 56
     \stemUp fis2 r4 \stemUp g4 | % 57
     \stemUp g4 \stemUp g4 \stemUp g4 \stemUp a4 | % 58
-    \stemDown b2 r4 \stemDown bes4 \break | % 59
+    \stemDown b2 r4 \stemDown bes4 | % 59
     \stemDown des4 \stemDown bes4 \stemDown des4 \stemUp as4 |
     \barNumberCheck #60
     \stemDown bes2. \stemDown bes4 | % 61
@@ -282,7 +282,7 @@ ADreamWithinADreamPartPFourVoiceOne =  \relative es {
     \stemDown es'4. \stemDown es8 \stemUp es,4. \stemUp es8 | % 4
     \stemUp as4. \stemUp as8 \stemUp f2 | % 5
     \stemUp bes2 \stemDown des4 \stemDown es4 | % 6
-    \stemDown f4 \stemDown f4 \stemDown f4. \stemDown f8 \break | % 7
+    \stemDown f4 \stemDown f4 \stemDown f4. \stemDown f8 | % 7
     \stemUp bes,4. \stemUp bes8 \stemUp bes4. \stemUp bes8 | % 8
     \stemUp bes2. \stemUp bes8 [ \stemUp bes8 ] | % 9
     \stemUp bes4. \stemUp bes8 \stemUp bes4. \stemUp bes8 |
@@ -290,7 +290,7 @@ ADreamWithinADreamPartPFourVoiceOne =  \relative es {
     \stemUp bes2. \stemUp bes8 [ \stemUp bes8 ] | % 11
     \stemUp g4 \stemUp g4 \stemUp g4. \stemUp g8 | % 12
     \stemUp ges2. \stemUp ges8 [ \stemUp ges8 ] | % 13
-    \stemUp as4 \stemUp as4 \stemUp bes4 \stemUp bes4 \break | % 14
+    \stemUp as4 \stemUp as4 \stemUp bes4 \stemUp bes4 | % 14
     \stemUp c2. \stemUp c8 [ \stemUp c8 ] | % 15
     \stemUp g4 \stemUp g4 \stemUp g4. \stemUp g8 | % 16
     \stemUp ges2. \stemUp ges8 [ \stemUp ges8 ] | % 17
@@ -299,7 +299,7 @@ ADreamWithinADreamPartPFourVoiceOne =  \relative es {
     \stemDown es4 \stemDown es8 [ \stemDown es8 ] \stemDown des4 \stemUp
     bes4 | \barNumberCheck #20
     \stemUp es,2 r8 \stemUp ges8 [ \stemUp ges8 \stemUp ges8 ]
-    \pageBreak | % 21
+    | % 21
     \stemUp as4 \stemUp as4 \stemUp a4 \stemUp a4 | % 22
     \stemUp b2 r4 \stemUp b4 | % 23
     \stemUp c4 \stemDown d4 \stemDown d4 \stemDown dis4 | % 24
@@ -307,7 +307,7 @@ ADreamWithinADreamPartPFourVoiceOne =  \relative es {
     \stemUp bes4 \stemUp as4 \stemUp ges4 \stemUp f4 | % 26
     \stemUp es2. \stemUp es4 | % 27
     \stemUp as2. \stemUp es4 | % 28
-    \stemUp b'2. \stemUp bes4 \break | % 29
+    \stemUp b'2. \stemUp bes4 | % 29
     es,1 | \barNumberCheck #30
     r2. r8 \stemDown es'8 | % 31
     \stemDown es4. \stemDown es8 \stemUp es,4 \stemUp es4 | % 32
@@ -315,7 +315,7 @@ ADreamWithinADreamPartPFourVoiceOne =  \relative es {
     \stemDown es'4 \stemDown f4 \stemDown ges4 \stemDown des4 | % 34
     \stemDown es2. \stemDown es8 [ \stemDown es8 ] | % 35
     \stemDown es4. \stemDown es8 \stemDown es4. \stemDown es8 | % 36
-    des1 \break | % 37
+    des1 | % 37
     \stemUp c4 \stemUp c8 [ \stemUp c8 ] \stemUp c4 \stemUp c4 | % 38
     \stemUp g2. \stemUp g4 | % 39
     \stemUp as4. \stemUp as8 \stemUp bes4. \stemUp bes8 |
@@ -323,7 +323,7 @@ ADreamWithinADreamPartPFourVoiceOne =  \relative es {
     \stemUp c2. \stemUp g8 [ \stemUp g8 ] | % 41
     \stemUp as4. \stemUp g8 \stemUp f4 \stemUp f4 | % 42
     \stemUp es2. r4 | % 43
-    r2. \stemUp es8 [ \stemUp es8 ] \break | % 44
+    r2. \stemUp es8 [ \stemUp es8 ] | % 44
     \stemUp fes4 ( \stemUp es2 ) \stemUp f4 | % 45
     \stemUp g4 \stemUp g4 \stemUp g4. \stemUp g8 | % 46
     \stemUp ges2. \stemUp ges4 | % 47
@@ -332,7 +332,7 @@ ADreamWithinADreamPartPFourVoiceOne =  \relative es {
     \stemUp g4 \stemUp g4 \stemUp g4. \stemUp g8 | \barNumberCheck #50
     ges1 | % 51
     \stemUp as4 \stemUp as8 [ \stemUp as8 ] \stemUp bes4 \stemUp bes8 [
-    \stemUp bes8 ] \pageBreak | % 52
+    \stemUp bes8 ] | % 52
     \stemDown d2. \stemDown d4 | % 53
     \stemDown es4 \stemDown es8 [ \stemDown es8 ] \stemDown des4 \stemUp
     bes4 | % 54
@@ -340,7 +340,7 @@ ADreamWithinADreamPartPFourVoiceOne =  \relative es {
     \stemUp as4 \stemUp as4 \stemUp a4 \stemUp a4 | % 56
     \stemUp b2 r4 \stemUp b4 | % 57
     \stemUp c4 \stemDown d4 \stemDown d4 \stemDown dis4 | % 58
-    \stemDown e2 r4 \stemDown es4 \break | % 59
+    \stemDown e2 r4 \stemDown es4 | % 59
     \stemUp bes4 \stemUp as4 \stemUp ges4 \stemUp f4 | \barNumberCheck
     #60
     \stemUp es2. \stemUp es4 | % 61
