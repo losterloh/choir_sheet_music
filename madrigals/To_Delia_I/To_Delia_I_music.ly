@@ -15,21 +15,36 @@ ToDeliaIGlobal = {
 
 ToDeliaIAltoMusic = \relative c' {
   \ToDeliaIGlobal
-  r8 |
+  r4 |
   R2 * 7|
-  r4. a8 |
+  r4 a4 |
   d4. e8 |
   f4 d |
+  a'2~ |
+  a4 g |
+  f4( d |
+  c4) a'~ |
+  a g |
   a2 |
-  a2 |
-  bf2 |
-  a |
-  g |
-  a |
-  R2 * 16 |
+  R2 * 2 |
+  r4 f |
+  c'4 f,8( g) |
+  g8.( f16) f4 |
+  f c |
+  d2 |
+  e |
+  fs4 d |
+  g8 bf a bf |
+  g4 g |
+  g f |
+  f( e) |
+  f4 a4 |
+  e f |
+  bf8 a g f |
+  c4 e |
+  a4. a8 |
   \absolute {
-  r4. a'8 |
-  c' e' f'( a'~ |
+  c'8 e' f'( a'~ |
   a') bf e'( a'~ |
   a') c' e' a' |
   a'4 r8 a'8 |
@@ -44,7 +59,7 @@ ToDeliaIAltoMusic = \relative c' {
 ToDeliaITenorOneMusic = \relative c' {
   \ToDeliaIGlobal
   \clef "treble_8"
-  \partial 8  a8 |
+  \partial 4  a4 |
   d,4. e8 |
   f4 g |
   a2 |
@@ -61,9 +76,23 @@ ToDeliaITenorOneMusic = \relative c' {
   g f~ |
   f e |
   f2 |
-  R2 * 16 |  
-  r2 |
+  R2 * 3 |
+  r4 f4 |
+  d'4 c8( bf) |
+  a g f e |
+  d2 |
+  d'2 |
+  d4 c |
+  bf8 g fs d |
+  g4 bf |
+  d bf |
+  a( bf) |
+  a2 |
   r4 c |
+  bf a |
+  c c |
+  d8 d c c|
+  a4 c |
   bf a |
   c c |
   d8 d c c|
@@ -77,7 +106,7 @@ ToDeliaITenorOneMusic = \relative c' {
 ToDeliaITenorTwoMusic = \relative c' {
   \ToDeliaIGlobal
   \clef "treble_8"
-  r8 |
+  r4 |
   R2 |
   r4 d4 |
   a4. b!8 |
@@ -89,11 +118,29 @@ ToDeliaITenorTwoMusic = \relative c' {
   R2 |
   R2 |
   r4 e4 |
-  a e |
-  f g |
+  a a |
+  bf2 |
+  a |
+  g |
+  a |
+  R2 |
+  r4 f |
+  c'4. f,8 |
+  g4 a |
+  bf a8( g) |
+  a4 a |
+  bf bf |
+  bf2 |
+  a2 |
+  bf4 d |
+  c bf |
+  g bf |
+  a( g) |
   f2 |
-  R2 * 18 |
-  r2 |
+  a4 g8 f |
+  e4 g |
+  f8 a bf8 g |
+  a4( f) |
   a4 g8 f |
   e4 g |
   f8 a bf8 g |
@@ -102,22 +149,37 @@ ToDeliaITenorTwoMusic = \relative c' {
   g4 a |
   f8 a \parenthesize Accidental b!8 g |
   a4( d,) |
-  
   \bar "|."
 }
 
 ToDeliaIBassMusic = \relative c {
   \ToDeliaIGlobal
   \clef bass
-  r8 |  
+  r4 |  
   R2 * 11 |
   r4 a4 |
   d4. e8 |
   f4 d |
-  bf c |
-  f,2 |
-  R2 * 20 |
-  r4 f4 |
+  bf( c) |
+  f,4 c' |
+  f,4. g8 |
+  a4 bf |
+  c4. d8 |
+  e4 c |
+  f2 |
+  r4 e4 |
+  d2 |
+  g |
+  d |
+  r4 fs4 |
+  g d |
+  bf d |
+  c2 |
+  f,4 f4 |
+  f4 f4 |
+  g g |
+  a a |
+  bf bf |
   f4 f4 |
   g g |
   a a |
@@ -149,23 +211,35 @@ Which here my love, my youth, my plaints re -- veal.
 
 ToDeliaIAltoLyrics = \lyricmode {
 Un -- to the bound -- less o -- cean of thy beau -- ty
+Runs this poor ri -- ver, charged with streams of zeal,
+Re -- turn -- ing thee the tri -- bute of my du -- ty,
+Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal.
 }
 ToDeliaITenorOneLyrics = \lyricmode {
 Un -- to the bound -- less o -- cean of thy beau -- ty
 Un -- to the bound -- less o -- cean of thy beau -- ty
+Runs this poor ri -- ver, charged with streams of zeal,
+Re -- turn -- ing thee the tri -- bute of my du -- ty,
+Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal.
 }
 ToDeliaITenorTwoLyrics = \lyricmode {
 Un -- to the bound -- less o -- cean of thy beau -- ty
-Un -- to the bound -- less o -- cean of thy beau -- ty  
+The o -- cean of thy beau -- ty
+Runs this poor ri -- ver, charged with streams of zeal,
+Re -- turn -- ing thee the tri -- bute of my du -- ty,
+Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal.
 }
 ToDeliaIBassLyrics = \lyricmode {
-Un -- to the bound -- less o -- ce -- an %of thy beau -- ty
+The o -- cean of thy beau -- ty
+Runs this poor ri -- ver, charged with streams of zeal,
+Re -- turn -- ing thee the tri -- bute of my du -- ty,
+Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal.
 }
