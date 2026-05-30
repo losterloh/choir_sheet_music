@@ -1,0 +1,2 @@
+voiceInstrumentName = "Voice"
+voiceShortInstrumentName = ##f
