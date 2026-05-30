@@ -36,3 +36,7 @@ Durable guidance, decisions, clarifications, and corrections for this repository
 ## Entries
 - 2026-05-30 [workflow] When setting up this repository's LilyPond structure from root-level MuseScore files, copy the selected/latest .mscz files into song subdirectories and leave the root-level .mscz files untouched.
   Context: User choice while initializing choir_sheet_music LilyPond structure.
+- 2026-05-30 [decision] Use `madrigals` as the subfolder name for the renaissance madrigals book infrastructure.
+  Context: User chose the folder name while creating a new ATTB madrigal book scaffold.
+- 2026-05-30 [preference] Use underscores for LilyPond song directory and file names; avoid spaces and special characters in file names even when display titles contain punctuation.
+  Context: User clarified while renaming the empty madrigal scaffold to display title `To Delia - I`.
