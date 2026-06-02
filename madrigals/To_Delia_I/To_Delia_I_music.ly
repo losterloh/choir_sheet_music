@@ -53,6 +53,26 @@ ToDeliaIAltoMusic = \relative c' {
   a') c' e' a' |
   a'2 |
   }
+  R2 * 4 |
+  r8 e8 f c |
+  f c d f |
+  c4. c8 |
+  c2~ |
+  c8 r8 c4 |
+  cs4. c8 |
+  d4. c8 |
+  c4. c8 |
+  c4. c8 |
+  c2~ |
+  c8 r8 c4 |
+  d2 |
+  d2 |
+  c2 |
+  c2 |
+  bf2~( |
+  bf2 |
+  a~ |
+  a4) r4 |
   \bar "|."
 }
 
@@ -100,6 +120,27 @@ ToDeliaITenorOneMusic = \relative c' {
   bf8 bf a a |
   \parenthesize Accidental c!8 c \parenthesize Accidental b! \parenthesize Accidental c! |
   d2 |
+  R2*3 |
+  r4 c |
+  g4. a8 |
+  bf a bf c |
+  a4. g8 |
+  g2~ |
+  g8 r8 g4 |
+  a4. a8 |
+  a4 g |
+  a4. g8 |
+  g4. a8 |
+  a2~ |
+  a8 r8 a4~ |
+  a2~ |
+  a4 a4~ |
+  a4 a4~ |
+  a a~ |
+  a a~ |
+  a g~( |
+  g f~ |
+  f) r4 |
   \bar "|."
 }
 
@@ -149,6 +190,29 @@ ToDeliaITenorTwoMusic = \relative c' {
   g4 a |
   f8 a \parenthesize Accidental b!8 g |
   a4( d,) |
+  R2 |
+  r4 f |
+  c d |
+  e4.( f8 |
+  g4) f |
+  d4. c8 |
+  c4. c8 |
+  c2~ |
+  c8 r8 e4 |
+  g4. g8 |
+  f4 e |
+  f4. e8 |
+  e4. f8 |
+  f2~ |
+  f8 r8 f4~ |
+  f2~ |
+  f4 f4~ |
+  f4 f4~ |
+  f f~ |
+  f f~ |
+  f e~( |
+  e d~ |
+  d) r4 |
   \bar "|."
 }
 
@@ -183,11 +247,34 @@ ToDeliaIBassMusic = \relative c {
   f4 f4 |
   g g |
   a a |
-  bf bf |
-  f f |
+  bf8 bf bf bf |
+  f4 f |
   g8 d' c bf |
   a f g a |
   d2 |
+  r4 c |
+  f,4.( g8 |
+  a4) bf |
+  c4.( d8 |
+  e4) d |
+  bf4. f8 |
+  f4. e8 |
+  e2~ |
+  e8 r8 e4 |
+  a4. a8 |
+  bf4 bf4 |
+  c4. c8 |
+  c4 c |
+  f,2~ |
+  f8 r8 f4 |
+  d'2 |
+  a4( bf) |
+  c2~ |
+  c4 c |
+  g2~ |
+  g2( |
+  d~) |
+  d4 r4 |
   \bar "|."
 }
 
@@ -216,6 +303,9 @@ Re -- turn -- ing thee the tri -- bute of my du -- ty,
 Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal.
+Here I un -- clasp the book of my charged soul,
+Where I have cast th'ac -- counts of all my care;
+Here have I summed my sighs. Here I enrol
 }
 ToDeliaITenorOneLyrics = \lyricmode {
 Un -- to the bound -- less o -- cean of thy beau -- ty
@@ -225,6 +315,9 @@ Re -- turn -- ing thee the tri -- bute of my du -- ty,
 Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal.
+Here I un -- clasp the book of my charged soul,
+Where I have cast th'ac -- counts of all my care;
+Here have I summed my sighs. Here I enrol
 }
 ToDeliaITenorTwoLyrics = \lyricmode {
 Un -- to the bound -- less o -- cean of thy beau -- ty
@@ -234,6 +327,9 @@ Re -- turn -- ing thee the tri -- bute of my du -- ty,
 Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal.
+Here I un -- clasp the book of my charged soul,
+Where I have cast th'ac -- counts of all my care;
+Here have I summed my sighs. Here I enrol
 }
 ToDeliaIBassLyrics = \lyricmode {
 The o -- cean of thy beau -- ty
@@ -242,6 +338,9 @@ Re -- turn -- ing thee the tri -- bute of my du -- ty,
 Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal.
+Here I un -- clasp the book of my charged soul,
+Where I have cast th'ac -- counts of all my care;
+Here have I summed my sighs. Here I enrol
 }
 
 ToDeliaIMusic =
