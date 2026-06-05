@@ -34,8 +34,8 @@ ToDeliaIAltoMusic = \relative c' {
   d2 |
   e |
   fs4 d |
-  g8 bf a bf |
-  g4 g |
+  g8 bf a d |
+  c4 bf |
   g f |
   f( e) |
   f4 a4 |
@@ -72,7 +72,21 @@ ToDeliaIAltoMusic = \relative c' {
   bf2~( |
   bf2 |
   a~ |
-  a4) r4 |
+  a4) bf4 |
+  bf2~ |
+  bf4 bf |
+  bf2( |
+  a2 |
+  bf4) r4 |
+  R2 * 4 |
+  r4 f'8( a) |
+  g f e d |
+  c4 f |
+  d f8( g) |
+  f2 |
+  g2 |
+  a4 b |
+  a2 |
   \bar "|."
 }
 
@@ -109,7 +123,7 @@ ToDeliaITenorOneMusic = \relative c' {
   a( bf) |
   a2 |
   r4 c |
-  bf a |
+  bf bf |
   c c |
   d8 d c c|
   a4 c |
@@ -140,7 +154,23 @@ ToDeliaITenorOneMusic = \relative c' {
   a a~ |
   a g~( |
   g f~ |
-  f) r4 |
+  f) g4 |
+  g2~ |
+  g4 g |
+  f2~ |
+  f2~ |
+  f4 r4 |
+  R2 * 2 |
+  r4 f8( a) |
+  g f g a |
+  f4 r4 |
+  r4 bf8( d) |
+  c bf a bf |
+  d8 d8 d d |
+  c2 |
+  d |
+  f4 e |
+  d2 |
   \bar "|."
 }
 
@@ -180,7 +210,7 @@ ToDeliaITenorTwoMusic = \relative c' {
   f2 |
   a4 g8 f |
   e4 g |
-  f8 a bf8 g |
+  f8 c' a 8 g |
   a4( f) |
   a4 g8 f |
   e4 g |
@@ -212,7 +242,24 @@ ToDeliaITenorTwoMusic = \relative c' {
   f f~ |
   f e~( |
   e d~ |
-  d) r4 |
+  d) c |
+  c2~ |
+  c4 c4 |
+  c2~( |
+  c2 |
+  d4) r4 |
+  r4 a'8( c) |
+  bf8 a g f |
+  c4 d |
+  d4. c8 |
+  c4 f |
+  g g |
+  a a |
+  bf8 bf bf bf |
+  bf4 a |
+  bf8 d c bf |
+  a f g a |
+  d,2 |
   \bar "|."
 }
 
@@ -274,7 +321,25 @@ ToDeliaIBassMusic = \relative c {
   g2~ |
   g2( |
   d~) |
-  d4 r4 |
+  d4 ef4 |
+  ef2~ |
+  ef4 ef |
+  f2~( |
+  f2 |
+  bf4) bf4 |
+  f f |
+  g g |
+  a a |
+  bf4 bf |
+  f a4 |
+  bf bf |
+  c c |
+  bf8 g f e |
+  f4 f |
+  g8 bf a g |
+  f a e f |
+  d2 |
+ 
   \bar "|."
 }
 
@@ -305,7 +370,9 @@ Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal.
 Here I un -- clasp the book of my charged soul,
 Where I have cast th'ac -- counts of all my care;
-Here have I summed my sighs. Here I enrol
+Here have I summed my sighs. Here I en -- rol
+How they were spent for thee. Look, what they are.
+Look, what they are.
 }
 ToDeliaITenorOneLyrics = \lyricmode {
 Un -- to the bound -- less o -- cean of thy beau -- ty
@@ -317,7 +384,10 @@ Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal.
 Here I un -- clasp the book of my charged soul,
 Where I have cast th'ac -- counts of all my care;
-Here have I summed my sighs. Here I enrol
+Here have I summed my sighs. Here I en -- rol
+How they were spent for thee.
+How they were spent for thee. Look, what they are.
+Look, what they are.
 }
 ToDeliaITenorTwoLyrics = \lyricmode {
 Un -- to the bound -- less o -- cean of thy beau -- ty
@@ -329,7 +399,10 @@ Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal.
 Here I un -- clasp the book of my charged soul,
 Where I have cast th'ac -- counts of all my care;
-Here have I summed my sighs. Here I enrol
+Here have I summed my sighs. Here I en -- rol
+How they were spent for thee. Look, what they are.
+How they were spent for thee. Look, what they are.
+How they were spent for thee. Look, what they are.
 }
 ToDeliaIBassLyrics = \lyricmode {
 The o -- cean of thy beau -- ty
@@ -340,7 +413,10 @@ Which here my love, my youth, my plaints re -- veal,
 Which here my love, my youth, my plaints re -- veal.
 Here I un -- clasp the book of my charged soul,
 Where I have cast th'ac -- counts of all my care;
-Here have I summed my sighs. Here I enrol
+Here have I summed my sighs. Here I en -- rol
+How they were spent for thee. Look, what they are.
+How they were spent for thee. Look, what they are.
+How they were spent for thee. Look, what they are.
 }
 
 ToDeliaIMusic =
