@@ -123,6 +123,14 @@ ToDeliaIAltoMusic = \relative c' {
   bf4 c4 |
   d2~ |
   d2 |
+  r4 a8( |
+  a') a a16( g) |
+  fs16 fs gs fs e16 d |
+  cs8 as r |
+  b8 d g |
+  g4 g8 |
+  g16 fs fs8 fs |
+  fs as r |
   \bar "|."
 }
 
@@ -248,7 +256,15 @@ ToDeliaITenorOneMusic = \relative c' {
   a2 |
   g2 |
   fs~ |
-  fs
+  fs |
+  d'8 d d |
+  d cs16( b) cs16 d |
+  b4 b8 |
+  as cs r |
+  d16( cs b) d e8 |
+  a,4 d8 |
+  cs8 fs cs16 d |
+  cs8 as r |
   \bar "|."
 }
 
@@ -383,6 +399,14 @@ ToDeliaITenorTwoMusic = \relative c' {
   d4 d4 |
   d2~ |
   d2 |
+  a'8 a fs |
+  e e16( d) e fs |
+  d8( fs) b |
+  cs as r |
+  b b b |
+  cs4 b8 |
+  as8 as as16 gs |
+  fs8 cs' r |
   \bar "|."
 }
 
@@ -503,6 +527,15 @@ ToDeliaIBassMusic = \relative c {
   g4 g |
   d2~ |
   d2 |
+  \time 3/8
+  d8 d' d |
+  a4 a8 |
+  b16 cs d8 e |
+  fs fs, r8 |
+  g8 g' g |
+  e4 d8 |
+  cs16( b cs) d cs b |
+  as8 fs r |
   \bar "|."
 }
 
@@ -542,6 +575,8 @@ how just I reck -- on with thine eyes.
 Ex -- am -- ine well thy beau -- ty with my truth,
 And cross my cares ere great -- er sums a -- rise,
 a -- rise, a -- rise, a -- rise!
+Read it, sweet maid, though it be done but slight -- ly;
+Who can show all his love, doth love but light -- ly.
 }
 ToDeliaITenorOneLyrics = \lyricmode {
 Un -- to the bound -- less o -- cean of thy beau -- ty
@@ -565,6 +600,8 @@ And cross my cares ere great -- er sums a -- rise,
 %And cross my cares
 ere great -- er sums a -- rise,
 a -- rise, a -- rise, a -- rise!
+Read it, sweet maid, though it be done but slight -- ly;
+Who can show all his love, doth love but light -- ly.
 }
 ToDeliaITenorTwoLyrics = \lyricmode {
 Un -- to the bound -- less o -- cean of thy beau -- ty
@@ -586,6 +623,8 @@ Ex -- am -- ine thy beau -- ty with my truth,
 And cross my cares ere great -- er sums a -- rise,
 And cross my cares ere great -- er sums a -- rise,
 a -- rise, a -- rise, a -- rise, a -- rise!
+Read it, sweet maid, though it be done but slight -- ly;
+Who can show all his love, doth love but light -- ly.
 }
 ToDeliaIBassLyrics = \lyricmode {
 The o -- cean of thy beau -- ty
@@ -605,6 +644,8 @@ And see %how just I reck -- on with thine eyes.
 Ex -- am -- ine well thy beau -- ty with my truth,
 And cross my cares ere great -- er sums a -- rise,
 a -- rise, a -- rise, a -- rise, a -- rise!
+Read it, sweet maid, though it be done but slight -- ly;
+Who can show all his love, doth love but light -- ly.
 }
 
 ToDeliaIMusic =
