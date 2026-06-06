@@ -124,13 +124,23 @@ ToDeliaIAltoMusic = \relative c' {
   d2~ |
   d2 |
   r4 a8( |
-  a') a a16( g) |
-  fs16 fs gs fs e16 d |
+  a') a g16(fs) |
+  fs16 b \parenthesize Accidental a! fs e16 d |
   cs8 as r |
   b8 d g |
-  g4 g8 |
-  g16 fs fs8 fs |
-  fs as r |
+  g8( e8) fs8 |
+  fs16 b as8 fs |
+  cs fs r |
+  R4. * 8 |
+  a8 a a |
+  a4 g8 |
+  fs16( e fs) g fs e |
+  fs8 a g8 |
+  d8 d16( cs) d e |
+  fs4 g8 |
+  g( fs4~ |
+  fs8 e) e |
+  fs8 a r |
   \bar "|."
 }
 
@@ -265,6 +275,16 @@ ToDeliaITenorOneMusic = \relative c' {
   a,4 d8 |
   cs8 fs cs16 d |
   cs8 as r |
+  R4. * 8 |
+  d16 cs d e d cs |
+  d8 d a |
+  d16 cs d e d cs |
+  d8 d d |
+  b b16 as b cs |
+  d4 d8 |
+  d d d |
+  d d cs |
+  d4. |
   \bar "|."
 }
 
@@ -401,12 +421,29 @@ ToDeliaITenorTwoMusic = \relative c' {
   d2 |
   a'8 a fs |
   e e16( d) e fs |
-  d8( fs) b |
+  d16( e fs8) b |
   cs as r |
   b b b |
-  cs4 b8 |
+  cs4 \parenthesize Accidental a!8 |
   as8 as as16 gs |
   fs8 cs' r |
+  a8 a a |
+  a4 g8 |
+  fs16( e fs) g fs e |
+  fs8 d e8 |
+  d8 d16( cs) d e |
+  fs4 e8 |
+  d4~ d16 cs |
+  d8 fs r |
+  R4. |
+  r8 d16( e) f g |
+  a8 a a16 a |
+  fs4 e8 |
+  d8 fs b8 |
+  a4 g8 |
+  e fs fs |
+  fs g g |
+  a8 fs r |
   \bar "|."
 }
 
@@ -536,6 +573,23 @@ ToDeliaIBassMusic = \relative c {
   e4 d8 |
   cs16( b cs) d cs b |
   as8 fs r |
+  d'16( cs) d( e) d( cs) |
+  d4 a8 |
+  d16( cs d) e d cs |
+  d8 a a |
+  b b16( as) b cs |
+  d4 a8 |
+  fs16( e fs16 g fs) e |
+  d8 fs r |
+  R4. |
+  d16( e) fs( g) a8 |
+  b4 d8 |
+  d8 d16( cs) b a |
+  g16 g' fs e d( cs) |
+  b4 g8 |
+  a4 a8 |
+  a4 a8 |
+  fs8 d r |
   \bar "|."
 }
 
@@ -577,6 +631,8 @@ And cross my cares ere great -- er sums a -- rise,
 a -- rise, a -- rise, a -- rise!
 Read it, sweet maid, though it be done but slight -- ly;
 Who can show all his love, doth love but light -- ly.
+Read it, sweet maid, though it be done but slight -- ly;
+Who can show all his love, doth love but light -- ly.
 }
 ToDeliaITenorOneLyrics = \lyricmode {
 Un -- to the bound -- less o -- cean of thy beau -- ty
@@ -602,6 +658,8 @@ ere great -- er sums a -- rise,
 a -- rise, a -- rise, a -- rise!
 Read it, sweet maid, though it be done but slight -- ly;
 Who can show all his love, doth love but light -- ly.
+Read it, sweet maid, though it be done but slight -- ly;
+Who can show all his love, doth love but light -- ly.
 }
 ToDeliaITenorTwoLyrics = \lyricmode {
 Un -- to the bound -- less o -- cean of thy beau -- ty
@@ -625,6 +683,10 @@ And cross my cares ere great -- er sums a -- rise,
 a -- rise, a -- rise, a -- rise, a -- rise!
 Read it, sweet maid, though it be done but slight -- ly;
 Who can show all his love, doth love but light -- ly.
+Read it, sweet maid, though it be done but slight -- ly;
+Who can show all his love, doth love but light -- ly.
+Read it, sweet maid, though it be done but slight -- ly;
+Who can show all his love, doth love but light -- ly.
 }
 ToDeliaIBassLyrics = \lyricmode {
 The o -- cean of thy beau -- ty
@@ -644,6 +706,10 @@ And see %how just I reck -- on with thine eyes.
 Ex -- am -- ine well thy beau -- ty with my truth,
 And cross my cares ere great -- er sums a -- rise,
 a -- rise, a -- rise, a -- rise, a -- rise!
+Read it, sweet maid, though it be done but slight -- ly;
+Who can show all his love, doth love but light -- ly.
+Read it, sweet maid, though it be done but slight -- ly;
+Who can show all his love, doth love but light -- ly.
 Read it, sweet maid, though it be done but slight -- ly;
 Who can show all his love, doth love but light -- ly.
 }
