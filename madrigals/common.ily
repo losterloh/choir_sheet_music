@@ -1,4 +1,4 @@
-#(set-global-staff-size 16)
+#(set-global-staff-size 17)
 
 \paper {
   top-margin = 1.0\cm

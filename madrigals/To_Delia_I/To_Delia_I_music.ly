@@ -2,15 +2,15 @@
 
 \language "english"
 
-ToDeliaITitle = "To Delia - I"
-ToDeliaISubtitle = ""
-ToDeliaIComposer = ""
-ToDeliaIPoet = ""
+ToDeliaITitle = "To Delia"
+ToDeliaISubtitle = "I"
+ToDeliaIComposer = "Lukas Osterloh"
+ToDeliaIPoet = "Samuel Daniel"
 
 ToDeliaIGlobal = {
   \key d \minor
   \time 2/4
-  \tempo 4 = 80
+  \tempo 4 = 60
 }
 
 ToDeliaIAltoMusic = \relative c' {
@@ -133,7 +133,7 @@ ToDeliaIAltoMusic = \relative c' {
   cs fs r |
   R4. * 8 |
   a8 a a |
-  a4 g8 |
+  a4 a8 |
   fs16( e fs) g fs e |
   fs8 a g8 |
   d8 d16( cs) d e |
@@ -141,6 +141,14 @@ ToDeliaIAltoMusic = \relative c' {
   g( fs4~ |
   fs8 e) e |
   fs8 a r |
+  r4 a8~ |
+  a a g16(fs) |
+  fs16 b \parenthesize Accidental a! fs e16 d |
+  cs8 as r |
+  b8 d g |
+  g8( e8) fs8 |
+  e16( b' a) g fs e |
+  e8 d r |
   \bar "|."
 }
 
@@ -276,15 +284,23 @@ ToDeliaITenorOneMusic = \relative c' {
   cs8 fs cs16 d |
   cs8 as r |
   R4. * 8 |
-  d16 cs d e d cs |
-  d8 d a |
-  d16 cs d e d cs |
+  d16( cs) d( e) d( cs) |
+  d4 a8 |
+  d16( cs d) e d cs |
   d8 d d |
-  b b16 as b cs |
+  b b16( as) b cs |
   d4 d8 |
-  d d d |
-  d d cs |
-  d4. |
+  d4.~ |
+  d4 cs8 |
+  d8 fs r |
+  d8 d d |
+  d cs16( b) cs16 d |
+  b4 b8 |
+  as cs r |
+  d16( cs b) cs d8 |
+  a4 d8 |
+  d8 e d16 e |
+  cs8 a r |
   \bar "|."
 }
 
@@ -436,7 +452,7 @@ ToDeliaITenorTwoMusic = \relative c' {
   d4~ d16 cs |
   d8 fs r |
   R4. |
-  r8 d16( e) f g |
+  r8 d16( e) fs g |
   a8 a a16 a |
   fs4 e8 |
   d8 fs b8 |
@@ -444,6 +460,14 @@ ToDeliaITenorTwoMusic = \relative c' {
   e fs fs |
   fs g g |
   a8 fs r |
+  a8 a fs |
+  e e16( d) e fs |
+  d16( e fs8) b |
+  cs as r |
+  b b b |
+  cs4 a8 |
+  b16( g a16) b a16 g |
+  g8 fs r |
   \bar "|."
 }
 
@@ -563,7 +587,7 @@ ToDeliaIBassMusic = \relative c {
   g2~ |
   g4 g |
   d2~ |
-  d2 |
+  d2 | \bar ".|:"
   \time 3/8
   d8 d' d |
   a4 a8 |
@@ -580,7 +604,7 @@ ToDeliaIBassMusic = \relative c {
   b b16( as) b cs |
   d4 a8 |
   fs16( e fs16 g fs) e |
-  d8 fs r |
+  fs8 d r |
   R4. |
   d16( e) fs( g) a8 |
   b4 d8 |
@@ -589,26 +613,17 @@ ToDeliaIBassMusic = \relative c {
   b4 g8 |
   a4 a8 |
   a4 a8 |
-  fs8 d r |
+  d8 d, r |
+  \bar ":|."  
+  d8 d' d |
+  a4 a8 |
+  b16 cs d8 e |
+  fs fs, r8 |
+  g8 g' g |
+  e4 d8 |
+  g,16 d' cs8 a |
+  a8 d r |
   \bar "|."
-}
-
-ToDeliaLyrics = \lyricmode {
-%Unto the boundless ocean of thy beauty
-%Runs this poor river, charged with streams of zeal,
-%Returning thee the tribute of my duty,
-Which here my love, my youth, my plaints re -- veal,
-Which here my love, my youth, my plaints re -- veal.
-%Here I unclasp the book of my charged soul,
-%Where I have cast th' accounts of all my care;
-%Here have I summed my sighs.
-%Here I enrol How they were spent for thee.
-%Look, what they are. Look on the dear expenses of my youth,
-%And see how just I reckon with thine eyes.
-%Examine well thy beauty with my truth,
-%And cross my cares ere greater sums arise.
-%Read it, sweet maid, though it be done but slightly;
-%Who can show all his love, doth love but lightly
 }
 
 ToDeliaIAltoLyrics = \lyricmode {
@@ -629,6 +644,8 @@ how just I reck -- on with thine eyes.
 Ex -- am -- ine well thy beau -- ty with my truth,
 And cross my cares ere great -- er sums a -- rise,
 a -- rise, a -- rise, a -- rise!
+Read it, sweet maid, though it be done but slight -- ly;
+Who can show all his love, doth love but light -- ly.
 Read it, sweet maid, though it be done but slight -- ly;
 Who can show all his love, doth love but light -- ly.
 Read it, sweet maid, though it be done but slight -- ly;
@@ -660,6 +677,8 @@ Read it, sweet maid, though it be done but slight -- ly;
 Who can show all his love, doth love but light -- ly.
 Read it, sweet maid, though it be done but slight -- ly;
 Who can show all his love, doth love but light -- ly.
+Read it, sweet maid, though it be done but slight -- ly;
+Who can show all his love, doth love but light -- ly.
 }
 ToDeliaITenorTwoLyrics = \lyricmode {
 Un -- to the bound -- less o -- cean of thy beau -- ty
@@ -687,6 +706,8 @@ Read it, sweet maid, though it be done but slight -- ly;
 Who can show all his love, doth love but light -- ly.
 Read it, sweet maid, though it be done but slight -- ly;
 Who can show all his love, doth love but light -- ly.
+Read it, sweet maid, though it be done but slight -- ly;
+Who can show all his love, doth love but light -- ly.
 }
 ToDeliaIBassLyrics = \lyricmode {
 The o -- cean of thy beau -- ty
@@ -706,6 +727,8 @@ And see %how just I reck -- on with thine eyes.
 Ex -- am -- ine well thy beau -- ty with my truth,
 And cross my cares ere great -- er sums a -- rise,
 a -- rise, a -- rise, a -- rise, a -- rise!
+Read it, sweet maid, though it be done but slight -- ly;
+Who can show all his love, doth love but light -- ly.
 Read it, sweet maid, though it be done but slight -- ly;
 Who can show all his love, doth love but light -- ly.
 Read it, sweet maid, though it be done but slight -- ly;
