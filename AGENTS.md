@@ -40,3 +40,5 @@ Durable guidance, decisions, clarifications, and corrections for this repository
   Context: User chose the folder name while creating a new ATTB madrigal book scaffold.
 - 2026-05-30 [preference] Use underscores for LilyPond song directory and file names; avoid spaces and special characters in file names even when display titles contain punctuation.
   Context: User clarified while renaming the empty madrigal scaffold to display title `To Delia - I`.
+- 2026-06-13 [decision] For the Faerie Queene scaffold, use `faerie_queene/Book_<Roman>/Canto_<Roman>/<Book>_<Canto>_<Stanza>/` for set stanzas, plus `front_matter/` for dedications/sonnets/letter and `Mutability/Canto_<Roman>/` for the fragment.
+  Context: Created Faerie Queene scaffolding based on its literary structure.
