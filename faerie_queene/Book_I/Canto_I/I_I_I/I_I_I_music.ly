@@ -92,9 +92,9 @@ I_I_IAltoMusic = \relative c' {
   fs d4 |
   d4 e8 |
   d( e) fs |
-  \parenthesize Accidental f4 f8 |
+  \parenthesize Accidental f!4 f8 |
   f f d16 e |
-  f8 d4 |
+  f8 c4 |
   d4 e8 |
   d( e) fs |
   \parenthesize Accidental f!8. e16 d8 |
@@ -220,9 +220,9 @@ I_I_ITenorTwoMusic = \relative c {
   d,4 d8 |
   d4 d16( e16) |
   f4.~ |
-  f4 g8 |
-  a4.~ |
-  a8 g4 |
+  f4 g8~ |
+  g4 a8~ |
+  a4 g8 |
   d4.~ |
   d8 r4 |
   r8 f a~ |
@@ -254,9 +254,9 @@ I_I_ITenorTwoMusic = \relative c {
   d,4 d8 |
   d4 d16( e16) |
   f4.~ |
-  f4 g8 |
-  a4.~ |
-  a8 g4 |
+  f4 g8~ |
+  g4 a8~ |
+  a4 g8 |
   d4.~ |
   d8 r4 |
   r8 f a~ |
@@ -286,7 +286,7 @@ I_I_ITenorTwoMusic = \relative c {
   g4 d8 |
   d'8. c16 a8 |
   bf c c |
-  f, r8 d16( e) |
+  f, r8 f16( e) |
   fs4 fs8 |
   g4 d8 |
   d'8. c16 bf8 |
